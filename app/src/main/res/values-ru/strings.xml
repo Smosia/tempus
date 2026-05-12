@@ -417,8 +417,8 @@
     <string name="settings_radio_summary">Если включено, отображается раздел радио. Перезапустите приложение, чтобы изменение вступило в силу.</string>
     <string name="settings_enable_drawer_on_landscape">Включить боковое меню в портретном режиме [Экспериментально]</string>
     <string name="settings_enable_drawer_on_landscape_summary">Разблокирует боковое меню в портретной ориентации. Изменения вступят в силу после перезапуска.</string>
-    <string name="settings_hide_bottom_navbar_on_portrait">Скрывать нижнюю панель в портретном режиме [Экспериментально]</string>
-    <string name="settings_hide_bottom_navbar_on_portrait_summary">Увеличивает вертикальное пространство, убирая нижнюю панель. Изменения вступят в силу после перезапуска.</string>
+    <string name="settings_hide_bottom_navbar">Скрывать нижнюю панель в портретном режиме [Экспериментально]</string>
+    <string name="settings_hide_bottom_navbar_summary">Увеличивает вертикальное пространство, убирая нижнюю панель. Изменения вступят в силу после перезапуска.</string>
     <string name="settings_auto_download_lyrics">Автоматически скачивать тексты песен</string>
     <string name="settings_auto_download_lyrics_summary">Тексты будут автоматически сохраняться, чтобы их можно было просматривать офлайн.</string>
     <string name="settings_replay_gain">Режим ReplayGain</string>
