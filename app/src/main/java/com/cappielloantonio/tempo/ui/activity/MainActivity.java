@@ -294,7 +294,7 @@ public class MainActivity extends BaseActivity {
     public void toggleBottomNavigationBarVisibilityOnOrientationChange() {
         float displayDensity = getResources().getDisplayMetrics().density;
 
-        if (Preferences.getHideBottomNavbar() || isLandscape) {
+        if (Preferences.getHideBottomNavbarOnPortrait() || isLandscape) {
             navigationController.setNavbarVisibility(false);
             bottomSheetController.setPeekHeight(56, displayDensity);
         } else {

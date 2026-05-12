@@ -506,7 +506,7 @@
     <string name="settings_github_update_summary">Si se usa la versión de GitHub, la app comprobará nuevas actualizaciones del APK.</string>
     <string name="settings_support_summary">Participa en las discusiones y el soporte de la comunidad</string>
     <string name="settings_show_mini_shuffle_button">Mostrar el botón «Aleatorio»</string>
-    <string name="settings_hide_bottom_navbar_summary">Experimental. Aumenta el espacio vertical eliminando la barra de navegación inferior. Los cambios se aplicarán al reiniciar la app.</string>
+    <string name="settings_hide_bottom_navbar_on_portrait_summary">Experimental. Aumenta el espacio vertical eliminando la barra de navegación inferior. Los cambios se aplicarán al reiniciar la app.</string>
     <string name="settings_auto_download_lyrics">Descargar automáticamente las letras</string>
     <string name="starred_artist_sync_dialog_summary">Descargar los artistas destacados podría consumir una gran cantidad de datos.</string>
     <string name="settings_summary_landscape_items_per_row">Aplica a todos los listados de álbumes y artistas. Por defecto es 4</string>
@@ -572,5 +572,5 @@
     <string name="settings_androidauto_third_tab">Vista de la tercera pestaña</string>
     <string name="settings_enable_drawer_on_landscape">Habilitar el menú lateral en modo vertical [Experimental]</string>
     <string name="settings_enable_drawer_on_landscape_summary">Desbloquea el menú lateral horizontal en modo vertical. Los cambios se aplicarán al reiniciar la app.</string>
-    <string name="settings_hide_bottom_navbar">Ocultar la barra de navegación inferior en modo vertical [Experimental]</string>
+    <string name="settings_hide_bottom_navbar_on_portrait">Ocultar la barra de navegación inferior en modo vertical [Experimental]</string>
 </resources>
