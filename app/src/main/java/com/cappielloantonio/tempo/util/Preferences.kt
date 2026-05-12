@@ -35,6 +35,7 @@ object Preferences {
     private const val LANDSCAPE_ITEMS_PER_ROW = "landscape_items_per_row"
     private const val ENABLE_DRAWER_ON_PORTRAIT = "enable_drawer_on_portrait"
     private const val HIDE_BOTTOM_NAVBAR = "hide_bottom_navbar"
+    private const val HIDE_SYSTEM_BARS = "hide_system_bars"
     private const val IMAGE_SIZE = "image_size"
     private const val MAX_BITRATE_WIFI = "max_bitrate_wifi"
     private const val MAX_BITRATE_MOBILE = "max_bitrate_mobile"
@@ -366,6 +367,11 @@ object Preferences {
     @JvmStatic
     fun getHideBottomNavbar(): Boolean {
         return App.getInstance().preferences.getBoolean(HIDE_BOTTOM_NAVBAR, false)
+    }
+
+    @JvmStatic
+    fun getHideSystemBars(): Boolean {
+        return App.getInstance().preferences.getBoolean(HIDE_SYSTEM_BARS, false)
     }
 
     @JvmStatic

@@ -62,6 +62,11 @@
             android:summary="@string/settings_hide_bottom_navbar_summary"/>
 
         <SwitchPreference
+            android:title="@string/settings_hide_system_bars"
+            android:key="hide_system_bars"
+            android:summary="@string/settings_hide_system_bars_summary"/>
+
+        <SwitchPreference
             android:layout_height="match_parent"
             android:defaultValue="true"
             android:key="rounded_corner"
