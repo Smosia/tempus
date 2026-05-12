@@ -34,7 +34,7 @@ object Preferences {
     private const val STREAMING_CACHE_SIZE = "streaming_cache_size"
     private const val LANDSCAPE_ITEMS_PER_ROW = "landscape_items_per_row"
     private const val ENABLE_DRAWER_ON_PORTRAIT = "enable_drawer_on_portrait"
-    private const val HIDE_BOTTOM_NAVBAR_ON_PORTRAIT = "hide_bottom_navbar_on_portrait"
+    private const val HIDE_BOTTOM_NAVBAR = "hide_bottom_navbar"
     private const val IMAGE_SIZE = "image_size"
     private const val MAX_BITRATE_WIFI = "max_bitrate_wifi"
     private const val MAX_BITRATE_MOBILE = "max_bitrate_mobile"
@@ -93,7 +93,7 @@ object Preferences {
     private const val SORT_SEARCH_CHRONOLOGICALLY= "sort_search_chronologically"
     private const val ARTIST_DISPLAY_BIOGRAPHY= "artist_display_biography"
     private const val NETWORK_PING_TIMEOUT = "network_ping_timeout_base"
-    
+
     private const val TILE_SIZE = "tile_size"
     private const val AA_ALBUM_VIEW = "androidauto_album_view"
 	private const val AA_HOME_VIEW = "androidauto_home_view"
@@ -128,7 +128,7 @@ object Preferences {
         App.getInstance().preferences.edit().putString(NETWORK_PING_TIMEOUT, pingTimeout).apply()
     }
 
-    
+
 
     @JvmStatic
     fun getUser(): String? {
@@ -364,8 +364,8 @@ object Preferences {
     }
 
     @JvmStatic
-    fun getHideBottomNavbarOnPortrait(): Boolean {
-        return App.getInstance().preferences.getBoolean(HIDE_BOTTOM_NAVBAR_ON_PORTRAIT, false)
+    fun getHideBottomNavbar(): Boolean {
+        return App.getInstance().preferences.getBoolean(HIDE_BOTTOM_NAVBAR, false)
     }
 
     @JvmStatic
@@ -668,7 +668,7 @@ object Preferences {
         return App.getInstance().preferences.getBoolean(RATING_PER_ITEM, false)
     }
 
-    
+
     @JvmStatic
     fun isGithubUpdateEnabled(): Boolean {
         return App.getInstance().preferences.getBoolean(GITHUB_UPDATE_CHECK, true)
@@ -757,7 +757,7 @@ object Preferences {
     fun showAlbumDetail(): Boolean {
         return App.getInstance().preferences.getBoolean(ALBUM_DETAIL, false)
     }
-    
+
     @JvmStatic
     fun getAlbumSortOrder(): String {
         return App.getInstance().preferences.getString(ALBUM_SORT_ORDER, DEFAULT_ALBUM_SORT_ORDER) ?: DEFAULT_ALBUM_SORT_ORDER
@@ -838,12 +838,12 @@ object Preferences {
     fun getAndroidAutoThirdTab(): Int {
         return App.getInstance().preferences.getString(AA_THIRD_TAB, "2")!!.toInt()
     }
-	
+
     @JvmStatic
     fun getAndroidAutoFourthTab(): Int {
         return App.getInstance().preferences.getString(AA_FOURTH_TAB, "3")!!.toInt()
     }
-	
+
     @JvmStatic
     fun isAndroidAutoShuffleGenreSongsEnabled(): Boolean {
         return App.getInstance().preferences.getBoolean(AA_SHUFFLE_GENRE_SONGS, false)

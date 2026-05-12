@@ -57,10 +57,10 @@
             android:summary="@string/settings_enable_drawer_on_landscape_summary"/>
 
         <SwitchPreference
-            android:title="@string/settings_hide_bottom_navbar_on_portrait"
-            android:key="hide_bottom_navbar_on_portrait"
-            android:summary="@string/settings_hide_bottom_navbar_on_portrait_summary"/>
-        
+            android:title="@string/settings_hide_bottom_navbar"
+            android:key="hide_bottom_navbar"
+            android:summary="@string/settings_hide_bottom_navbar_summary"/>
+
         <SwitchPreference
             android:layout_height="match_parent"
             android:defaultValue="true"
