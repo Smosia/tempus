@@ -434,7 +434,7 @@
     <string name="settings_radio_summary">If enabled, show the radio section. Restart the app for it to take full effect.</string>
     <string name="settings_enable_drawer_on_landscape">Enable drawer on portrait</string>
     <string name="settings_enable_drawer_on_landscape_summary">Unlocks the lateral landscape menu drawer on portrait.</string>
-    <string name="settings_hide_bottom_navbar_on_portrait">Hide bottom navbar [Experimental]</string>
+    <string name="settings_hide_bottom_navbar_on_portrait">Hide bottom navbar on portrait [Experimental]</string>
     <string name="settings_hide_bottom_navbar_on_portrait_summary">Increases vertical space by removing the bottom navbar. The changes will take effect on restart.</string>
     <string name="settings_hide_system_bars">Hide system bars [Experimental]</string>
     <string name="settings_hide_system_bars_summary">Increases vertical space by removing the system bars. The changes will take effect on restart.</string>

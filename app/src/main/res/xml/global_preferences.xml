@@ -58,7 +58,7 @@
 
         <SwitchPreference
             android:title="@string/settings_hide_bottom_navbar_on_portrait"
-            android:key="hide_bottom_navbar"
+            android:key="hide_bottom_navbar_on_portrait"
             android:summary="@string/settings_hide_bottom_navbar_on_portrait_summary"/>
 
         <SwitchPreference
