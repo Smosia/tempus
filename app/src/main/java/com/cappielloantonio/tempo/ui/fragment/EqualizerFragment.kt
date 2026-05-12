@@ -84,6 +84,9 @@ class EqualizerFragment : Fragment() {
         activity.setBottomNavigationBarVisibility(false)
         activity.setBottomSheetVisibility(false)
         activity.setNavigationDrawerLock(true)
+        if (Preferences.getHideSystemBars()) {
+            activity.setSystemBarsVisibility(false)
+        }
     }
 
     @OptIn(UnstableApi::class)

@@ -294,24 +294,18 @@ public class MainActivity extends BaseActivity {
     public void toggleBottomNavigationBarVisibilityOnOrientationChange() {
         float displayDensity = getResources().getDisplayMetrics().density;
 
-        if (Preferences.getHideBottomNavbar()) {
+        if (Preferences.getHideBottomNavbar() || isLandscape) {
             navigationController.setNavbarVisibility(false);
+            bottomSheetController.setPeekHeight(56, displayDensity);
         } else {
             navigationController.setNavbarVisibility(true);
+            bottomSheetController.setPeekHeight(136, displayDensity);
         }
 
         if (Preferences.getHideSystemBars()) {
             navigationController.setSystemBarsVisibility(this, false);
         } else {
             navigationController.setSystemBarsVisibility(this, true);
-        }
-
-        if (!isLandscape) {
-            // SetDisplayDensity
-            bottomSheetController.setPeekHeight(136, displayDensity);
-        } else {
-            // SetDisplayDensity
-            bottomSheetController.setPeekHeight(56, displayDensity);
         }
     }
 
